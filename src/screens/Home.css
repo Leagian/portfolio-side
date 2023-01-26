@@ -1,0 +1,15 @@
+@media screen and (max-width: 800px) {
+  .pres-img {
+    display: none;
+  }
+  .home-presSkills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.screen-size {
+  min-height: 100vh;
+}

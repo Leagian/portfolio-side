@@ -1,0 +1,31 @@
+#footer {
+  height: 2.5rem;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #555;
+  font-family: "raleway";
+}
+
+.footer-name {
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+  .footer-name,
+  .footer-copyright {
+    font-size: 0.7rem;
+  }
+}

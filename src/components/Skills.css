@@ -1,0 +1,94 @@
+#skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 8rem;
+  max-width: 40%;
+  cursor: default;
+  padding: 1rem 0;
+}
+
+/* animation */
+
+.skills-all {
+  transition: transform 250ms;
+  padding: 0.8rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  width: fit-content;
+  margin-right: 1rem;
+  font-family: "sui";
+}
+
+.skills-all:hover {
+  transform: translateY(-10px);
+}
+
+/* couleur */
+
+.react {
+  background-color: #ff7f50;
+  color: #ffffff;
+}
+
+.mysql {
+  background-color: #fe8e3c;
+  color: #000000;
+}
+
+.javascript {
+  background-color: #f1ada0;
+  color: #ffffff;
+}
+
+.node {
+  background-color: #efbe7d;
+  color: #ffffff;
+}
+
+.html {
+  background-color: #181d27;
+  color: #ffffff;
+}
+
+.git {
+  background-color: #dcdcdc;
+  color: #000000;
+}
+
+.method {
+  background-color: #f2dfc7;
+  color: #000000;
+}
+
+/*media query*/
+
+@media screen and (max-width: 1300px) {
+  #skills {
+    margin-top: 2rem;
+    max-width: 40%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 6rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #skills {
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .skills {
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    margin-left: 0rem;
+  }
+  .skills-all {
+    font-size: 1.2rem;
+  }
+}
