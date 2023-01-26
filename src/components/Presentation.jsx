@@ -11,12 +11,12 @@ const Presentation = () => {
         <div className="presGlobal">
           <div>
             <h1 className="pres-h1">
-              My name <br />
-              is <span className="pres-bold"> Léa</span>
+              Hey! <br />
+              my name is <span className="pres-bold"> Léa.</span>
             </h1>
 
             {/* <div className="pres-wrapper"> */}
-            {/* <h3 className="typing-demo">I am a full Stack Developer</h3>
+            {/* <h3 className="typing-demo">I am a full Stack Developer</h3> 
             <span className="cursor">&nbsp;</span> */}
           </div>
 

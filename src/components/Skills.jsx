@@ -3,7 +3,7 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <>
-      <h3 className="typing-demo">I am a full Stack Developer</h3>
+      <h3 className="typing-demo">I am a Web Developer</h3>
       <span className="cursor">&nbsp;</span>
       <div id="skills">
         <p className="react skills-all">react</p>
@@ -12,7 +12,7 @@ const Skills = () => {
         <p className="git skills-all">git/github</p>
         <p className="html skills-all">html/css</p>
         <p className="mysql skills-all">mysql</p>
-        <p className="method skills-all">method scrum</p>
+        <p className="method skills-all">scrum method</p>
       </div>
     </>
   );

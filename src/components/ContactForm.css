@@ -8,18 +8,18 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  font-family: "raleway";
+  font-family: "FuturaMedium";
 }
 
 .contact-h1 {
   margin-bottom: 1rem;
   font-size: 3rem;
   margin-top: 5rem;
-  font-family: "ralewayBold";
+  font-family: "FuturaMedium";
 }
 
 .contact-h4 {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .contact-icon {
@@ -38,7 +38,7 @@ input {
   border: 2px solid black;
   box-shadow: 0px 5px 0 0 black;
   padding-left: 2rem;
-  font-family: "railway";
+  font-family: "FuturaMedium";
 }
 
 .wrapper-message {
@@ -59,7 +59,7 @@ input {
   box-shadow: 0px 5px 0 0 black;
   padding: 1rem;
   resize: vertical;
-  font-family: "railway";
+  font-family: "FuturaMedium";
 }
 
 .contact-button {
@@ -75,7 +75,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "sui";
+  font-family: "FuturaMedium";
   font-size: 1.2rem;
   margin-top: 2rem;
   margin-bottom: 5rem;

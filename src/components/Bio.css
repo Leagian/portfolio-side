@@ -3,7 +3,7 @@
 }
 
 .bio-title {
-  font-family: "ralewayBold";
+  font-family: "FuturaMedium";
   text-align: center;
   font-size: 3rem;
 }
@@ -14,14 +14,15 @@
 }
 
 #bio-para {
-  font-family: "raleway";
-  padding: 2rem;
+  font-family: "FuturaMedium";
+  padding: 1rem;
   max-width: 40%;
   margin-right: 10rem;
-  font-size: 1rem;
+  font-size: 1.4rem;
   word-spacing: 0.2rem;
   letter-spacing: 0.3rem;
   line-height: 2.5rem;
+  font-weight: normal;
 }
 
 .photoProfil {

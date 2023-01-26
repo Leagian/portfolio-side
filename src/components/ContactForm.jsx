@@ -8,7 +8,7 @@ const ContactForm = () => {
   return (
     <div>
       <div id="contact">
-        <h1 className="contact-h1">Get in touch</h1>
+        <h1 className="contact-h1">GET IN TOUCH</h1>
         <h4 className="contact-h4">I would love to hear from you!</h4>
 
         <div className="contact-circle"></div>

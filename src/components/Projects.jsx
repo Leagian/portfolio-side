@@ -29,7 +29,7 @@ const Projects = () => {
   return (
     <div>
       <div>
-        <h2 className="projects-title">Projects</h2>
+        <h2 className="projects-title">PROJECTS</h2>
       </div>
       <div id="projects-globalCard">
         {arrayProjects.map((e) => (
