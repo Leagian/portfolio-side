@@ -1,5 +1,4 @@
 import "./ProjectCard.css";
-
 const ProjectCard = (props) => {
   return (
     <div className="projcard-container">

@@ -1,5 +1,3 @@
-// import calculetteImg from "../images/calculetteImg.png";
-import hello2 from "../assets/images/hello2.png";
 import Spline from "@splinetool/react-spline";
 
 import "./Presentation.css";
@@ -14,10 +12,6 @@ const Presentation = () => {
               Hey! <br />
               my name is <span className="pres-bold"> Léa.</span>
             </h1>
-
-            {/* <div className="pres-wrapper"> */}
-            {/* <h3 className="typing-demo">I am a full Stack Developer</h3> 
-            <span className="cursor">&nbsp;</span> */}
           </div>
 
           <div className="pres-img">

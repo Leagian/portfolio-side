@@ -1,13 +1,11 @@
 #footer {
-  height: 2.5rem;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  /* position: relative; */
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #555;
   font-family: "raleway";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-name {
@@ -23,9 +21,8 @@
   margin-right: 2rem;
 }
 
-@media screen and (max-width: 800px) {
-  .footer-name,
-  .footer-copyright {
-    font-size: 0.7rem;
+@media (max-width: 767px) {
+  footer {
+    position: relative;
   }
 }
