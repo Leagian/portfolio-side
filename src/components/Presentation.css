@@ -82,37 +82,3 @@
 }
 
 /*media query*/
-
-@media screen and (max-width: 1200px) {
-  .pres-img {
-    width: 60%;
-  }
-
-  .calculette {
-    width: 50%;
-    height: auto;
-    margin-right: 20rem;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .calculette {
-    display: inline-block;
-    visibility: hidden;
-    width: 2rem;
-    height: 0;
-  }
-
-  .typing-demo {
-    display: block;
-  }
-
-  .presentation {
-    margin: 0;
-  }
-
-  .presGlobal {
-    margin-left: 4rem;
-    width: 50%;
-  }
-}

@@ -20,9 +20,3 @@
   align-items: center;
   margin-right: 2rem;
 }
-
-@media (max-width: 767px) {
-  footer {
-    position: relative;
-  }
-}

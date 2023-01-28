@@ -7,7 +7,7 @@ const Bio = () => {
       <h2 className="bio-title">BIOGRAPHY</h2>
       <div className="bio-container">
         <img src={profil} className="photoProfil" alt="portrait" />
-        <h4 id="bio-para">
+        <p id="bio-para">
           I have a diverse work history showing I'm adaptable, dedicated and
           thirsty for knowledge. I began as a librarian in the Bibliothèque
           Historique de la Ville de Paris (BHVP) for three years. Afterwards
@@ -20,7 +20,7 @@ const Bio = () => {
           With covid putting a halt to my work, it lead me happily in the
           direction back to my original passion of tech, where I am now as a
           full stack dev !
-        </h4>
+        </p>
       </div>
     </div>
   );
