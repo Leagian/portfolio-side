@@ -3,15 +3,48 @@
   height: auto;
   border-radius: 1rem;
   transition: all 0.5s ease;
-  margin-bottom: 7rem;
-  margin-right: 5rem;
-  margin-left: 5rem;
+  margin: 5rem;
+  border-radius: 2rem;
+}
+#projcard-hoverContainer {
+  position: relative;
+}
+
+.projcard-hoverText {
+  visibility: hidden;
+  position: absolute;
+  text-align: center;
+  top: 70%;
+  left: 10%;
+  border-radius: 1rem;
+  font-family: "FuturaMedium";
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+  line-height: 1.7rem;
+  text-align: start;
 }
 
 .projcard-img:hover {
-  transform: scale(1.03);
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 2rem;
+  transform: translateY(-5px);
+  background: #e0e0e0;
+  box-shadow: -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
+}
+
+.projcard-container:hover .projcard-hoverText {
+  visibility: visible;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 20%;
+  height: 20%;
+  transition: 0.8s;
+  transform: translateY(-5px);
+  padding: 1rem;
+  /* backdrop-filter: blur(5px) saturate(152%);
+  -webkit-backdrop-filter: blur(5px) saturate(152%);
+  background-color: rgba(17, 25, 40, 0.22); */
+  border-radius: 1.5rem;
+  white-space: pre-line;
 }
 
 @media screen and (max-width: 1000px) {

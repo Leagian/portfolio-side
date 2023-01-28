@@ -9,19 +9,25 @@ const arrayProjects = [
   {
     image: witcher,
     title: "médaillon de the witcher",
-    number: "01",
+    hoverText: `REACT 
+    CSS 
+    JS`,
   },
   {
     image: clicker,
     title: "compteur manuel",
-    number: "02",
     link: "https://leagiangrosso-counter.netlify.app/",
+    hoverText: `HTML 
+    CSS 
+    JS`,
   },
   {
     image: generator,
     title: "générateur de mot de passe",
-    number: "03",
     link: "https://leagiangrosso-generator.netlify.app/",
+    hoverText: `HTML 
+    CSS 
+    JS`,
   },
 ];
 
@@ -36,9 +42,9 @@ const Projects = () => {
           <ProjectCard
             key={e.number}
             image={e.image}
-            number={e.number}
             title={e.title}
             link={e.link}
+            hoverText={e.hoverText}
           />
         ))}
       </div>

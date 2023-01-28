@@ -8,12 +8,12 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div>
+    <div className="screen-global">
       <div className="background-container">
         <Dots />
       </div>
       <Header />
-      <div className="screen-size">
+      <div id="home-pres">
         <Presentation />
         <Skills />
       </div>

@@ -7,7 +7,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   font-family: "FuturaMedium";
 }
 
@@ -49,7 +48,7 @@ input {
 
 .contact-message {
   text-align: center;
-  height: 15rem;
+  height: 10rem;
   width: 20em;
   font-size: 1rem;
   margin-top: 1rem;

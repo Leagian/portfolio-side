@@ -1,10 +1,8 @@
 #skills {
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
   margin-left: 8rem;
   margin-bottom: 0;
-  /* max-width: 40%; */
   cursor: default;
   padding: 1rem 0;
 }
@@ -14,7 +12,7 @@
 .skills-all {
   transition: transform 250ms;
   padding: 0.8rem;
-  font-size: 2.3rem;
+  font-size: 2.1rem;
   border-radius: 0.5rem;
   width: fit-content;
   margin-right: 1rem;

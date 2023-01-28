@@ -5,12 +5,12 @@ import Dots from "./Dots";
 
 const About = () => {
   return (
-    <div>
+    <div className="screen-global">
       <div className="background-container">
         <Dots />
       </div>
       <Header />
-      <div className="screen-size">
+      <div id="about-pres">
         <Bio />
       </div>
       {/* <Footer /> */}
