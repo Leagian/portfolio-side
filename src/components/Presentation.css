@@ -10,7 +10,6 @@
 .presGlobal {
   display: flex;
   justify-content: space-between;
-  margin-top: 0;
 }
 
 .pres-h1 {
@@ -27,6 +26,7 @@
 }
 
 .calculette {
+  width: 100%;
   margin-left: 7rem;
   object-fit: contain;
 }

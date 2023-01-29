@@ -1,11 +1,12 @@
 .projcard-img {
-  max-width: 23rem;
+  max-width: 19rem;
   height: auto;
   border-radius: 1rem;
   transition: all 0.5s ease;
-  margin: 5rem;
+  margin: 2rem;
   border-radius: 2rem;
 }
+
 #projcard-hoverContainer {
   position: relative;
 }
@@ -13,36 +14,30 @@
 .projcard-hoverText {
   visibility: hidden;
   position: absolute;
-  text-align: center;
-  top: 70%;
-  left: 10%;
-  border-radius: 1rem;
-  font-family: "FuturaMedium";
-  font-size: 1.5rem;
-  color: black;
-  font-weight: bold;
-  line-height: 1.7rem;
   text-align: start;
+  top: 75%;
+  left: 8%;
+  font-family: "FuturaMedium";
+  font-size: 1.3rem;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  line-height: 1.3rem;
+  text-shadow: -2px -1px 4px rgba(0, 0, 0, 1);
 }
 
 .projcard-img:hover {
   border-radius: 2rem;
   transform: translateY(-5px);
-  background: #e0e0e0;
-  box-shadow: -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
+  filter: blur(7px);
 }
 
 .projcard-container:hover .projcard-hoverText {
   visibility: visible;
-  background-color: rgba(255, 255, 255, 0.5);
-  width: 20%;
-  height: 20%;
+  width: 8rem;
+  height: 5rem;
   transition: 0.8s;
-  transform: translateY(-5px);
   padding: 1rem;
-  /* backdrop-filter: blur(5px) saturate(152%);
-  -webkit-backdrop-filter: blur(5px) saturate(152%);
-  background-color: rgba(17, 25, 40, 0.22); */
-  border-radius: 1.5rem;
+  border-radius: 1rem;
   white-space: pre-line;
 }

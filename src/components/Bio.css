@@ -2,6 +2,7 @@
   font-family: "FuturaMedium";
   text-align: center;
   font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
 .bio-container {
@@ -22,10 +23,10 @@
 }
 
 .photoProfil {
-  margin: 4rem 3rem;
+  margin: 5rem;
   max-width: 100%;
   height: 100%;
-  box-shadow: 0 0 0 14px #fefefe, 0 0 0 15px #131918, -30px -30px 0 15px #f2dfc7;
+  box-shadow: 0 0 0 14px #fefefe, 0 0 0 15px #131918, -30px -30px 0 10px #f2dfc7;
   padding: 5px 10px 10px 5px;
 }
 

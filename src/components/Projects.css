@@ -3,28 +3,20 @@
   src: url("../assets/fonts/Raleway-Bold.ttf");
 }
 
+#projects-globalCard {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0 auto;
+}
+
 .projects-title {
   font-family: "FuturaMedium";
   text-align: center;
   font-size: 3rem;
 }
 
-#projects-globalCard {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 0 auto;
-}
-
 @media screen and (max-width: 1000px) {
-  .projects-title {
-    font-size: 2.4rem;
-  }
-  #projects-globalCard {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 5%;
-  }
 }

@@ -10,8 +10,9 @@
 /* animation */
 
 .skills-all {
+  margin: 0 auto;
   transition: transform 250ms;
-  padding: 0.8rem;
+  padding: 0.5rem;
   font-size: 2.1rem;
   border-radius: 0.5rem;
   width: fit-content;
