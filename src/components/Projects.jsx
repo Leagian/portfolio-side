@@ -8,13 +8,6 @@ import "./Projects.css";
 
 const arrayProjects = [
   {
-    image: witcher,
-    title: "médaillon de the witcher",
-    hoverText: `REACT 
-    CSS 
-    JS`,
-  },
-  {
     image: clicker,
     title: "compteur manuel",
     link: "https://leagiangrosso-counter.netlify.app/",
