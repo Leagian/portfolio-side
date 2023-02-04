@@ -27,4 +27,7 @@
   .background-container {
     display: none;
   }
+  .screen-global {
+    background-color: whitesmoke;
+  }
 }
