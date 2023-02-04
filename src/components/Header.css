@@ -8,8 +8,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  font-family: "raleway", cursive;
-  margin: 2rem 5rem;
+  margin: 2.5rem 5rem;
 }
 
 .headerIcon-toggle {
@@ -29,8 +28,10 @@
 .header-link {
   text-decoration: none;
   padding: 0.7rem;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   color: #000000;
+  font-family: "raleway";
+  font-weight: 500;
 }
 
 .header-socialLogo {
@@ -47,7 +48,7 @@ nav ul li a:before {
 } */
 
 nav ul li a:hover {
-  color: #555;
+  color: gray;
 }
 
 .header-nav ul li a {

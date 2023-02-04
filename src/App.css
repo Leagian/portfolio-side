@@ -4,7 +4,6 @@
   -ms-animation: fadein 1.5s; /* Internet Explorer */
   -o-animation: fadein 1.5s; /* Opera < 12.1 */
   animation: fadein 1.5s;
-  overflow: hidden;
 }
 
 @keyframes fadein {
@@ -55,7 +54,20 @@
     opacity: 1;
   }
 }
+.App {
+  overflow-x: hidden;
+  height: 100vh;
+}
 
-body {
-  min-height: 100vh;
+::-webkit-scrollbar {
+  background: transparent;
+  width: 5px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(86, 86, 86, 0.5);
+  border-radius: 15px;
+}
+::-webkit-scrollbar-corner {
+  border-radius: 15px;
 }

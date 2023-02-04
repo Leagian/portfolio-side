@@ -3,16 +3,15 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <>
-      <h3 className="typing-demo">I am a Web Developer</h3>
-      <span className="cursor">&nbsp;</span>
       <div id="skills">
-        <p className="react skills-all">react</p>
-        <p className="node skills-all">node.js</p>
-        <p className="javascript skills-all">javascript</p>
-        <p className="git skills-all">git/github</p>
-        <p className="html skills-all">html/css</p>
-        <p className="mysql skills-all">mysql</p>
-        <p className="method skills-all">scrum method</p>
+        <p className="orange skills-all">REACT</p>
+        <p className="gold skills-all">NODE.JS</p>
+        <p className="violet skills-all">JAVASCRIPT</p>
+        <p className="jaune skills-all">HTML</p>
+        <p className="jaune skills-all">CSS</p>
+        <p className="black skills-all">MYSQL</p>
+        <p className="violet skills-all">GIT/GITHUB</p>
+        <p className="orange skills-all">SCRUM METHOD</p>
       </div>
     </>
   );

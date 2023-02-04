@@ -3,21 +3,10 @@
   src: url("../assets/fonts/FuturaPTMedium.otf");
 }
 
-#presentation {
-  margin: 0rem 8rem;
-}
-
-.presGlobal {
-  display: flex;
-  justify-content: space-between;
-}
-
 .pres-h1 {
   font-size: 8rem;
   font-family: "FuturaMedium";
   cursor: default;
-  margin: 0;
-  margin-top: 3rem;
 }
 
 .pres-img {
@@ -35,14 +24,14 @@
 
 .typing-demo {
   font-weight: normal;
-  width: 19ch;
+  width: 16.5ch;
   animation: typing 4s steps(20), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
   font-family: "FuturaMedium";
   font-size: 2em;
-  margin: 1rem 8rem;
+  margin-top: 3rem;
 }
 
 @keyframes typing {

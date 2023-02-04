@@ -1,23 +1,22 @@
 #skills {
   display: flex;
-  flex-direction: row;
-  margin-left: 8rem;
-  margin-bottom: 0;
+  justify-content: end;
   cursor: default;
-  padding: 1rem 0;
+  flex-wrap: wrap;
+  width: 30%;
 }
 
 /* animation */
 
 .skills-all {
-  margin: 0 auto;
   transition: transform 250ms;
-  padding: 0.5rem;
-  font-size: 2.1rem;
+  padding: 0.7rem 1rem;
+  font-size: 2rem;
   border-radius: 0.5rem;
   width: fit-content;
-  margin-right: 1rem;
   font-family: "FuturaMedium";
+  margin-left: 3rem;
+  color: #ffffff;
 }
 
 .skills-all:hover {
@@ -26,69 +25,30 @@
 
 /* couleur */
 
-.react {
+.orange {
   background-color: #ff7f50;
-  color: #ffffff;
 }
 
-.mysql {
-  background-color: #fe8e3c;
-  color: #000000;
+.black {
+  background-color: #352725;
 }
 
-.javascript {
-  background-color: #f1ada0;
-  color: #ffffff;
+.violet {
+  background-color: #8a595d;
 }
 
-.node {
-  background-color: #efbe7d;
-  color: #ffffff;
+.gold {
+  background-color: #efbf7d;
 }
 
-.html {
-  background-color: #181d27;
-  color: #ffffff;
+.jaune {
+  background-color: #f0a93e;
 }
 
-.git {
-  background-color: #dcdcdc;
-  color: #000000;
+.marron {
+  background-color: #c3533d;
 }
 
-.method {
-  background-color: #f2dfc7;
-  color: #000000;
-}
-
-/*media query*/
-
-@media screen and (max-width: 1300px) {
-  #skills {
-    margin-top: 2rem;
-    max-width: 40%;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    margin-left: 6rem;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  #skills {
-    display: flex;
-    justify-content: center;
-    max-width: 80%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .skills {
-    display: flex;
-    justify-content: center;
-    max-width: 80%;
-    margin-left: 0rem;
-  }
-  .skills-all {
-    font-size: 1.2rem;
-  }
+.gray {
+  background-color: #5c5a5a;
 }

@@ -1,13 +1,7 @@
-.screen-global {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
 #home-pres {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .background-container {

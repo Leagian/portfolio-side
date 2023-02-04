@@ -6,24 +6,18 @@ import github from "../assets/images/github.png";
 import linkedin from "../assets/images/linkedin.png";
 import slack from "../assets/images/slack.png";
 
-function toggle() {}
-
-const onClick = () => {
-  window.location.href = "#projects";
-};
-
 const Header = () => {
   return (
     <header className="header">
       <nav className="header-nav">
         <ul>
           <li>
-            <Link className="header-link" to="/">
+            <Link className="header-link active" to="/">
               Home
             </Link>
           </li>
           <li>
-            <Link className="header-link" to="/about">
+            <Link className="header-link active" to="/about">
               About me
             </Link>
           </li>
@@ -68,7 +62,7 @@ const Header = () => {
         <AiOutlineMenu
           size="40"
           className="headerIcon-toggle"
-          onClick={toggle}
+          // onClick={toggle}
         />
       </nav>
     </header>
