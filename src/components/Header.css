@@ -72,9 +72,8 @@ nav ul li a:hover {
   width: 100%;
 } */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .header {
-    overflow: hidden;
     background-color: #faebd7;
     position: relative;
   }
@@ -92,10 +91,12 @@ nav ul li a:hover {
 
   .header-nav .header-link {
     color: black;
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     display: block;
+    font-family: "raleway";
+    align-self: center;
   }
 
   .header-nav .header-link.headerIcon-toggle {
@@ -111,10 +112,6 @@ nav ul li a:hover {
     color: black;
   }
 
-  .active {
-    background-color: #04aa6d;
-    color: white;
-  }
   .header-social {
     display: none;
   }

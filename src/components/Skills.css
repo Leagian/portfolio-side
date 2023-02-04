@@ -52,3 +52,18 @@
 .gray {
   background-color: #5c5a5a;
 }
+
+/*media query*/
+
+@media screen and (max-width: 1000px) {
+  #skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .background-container {
+    display: none;
+  }
+}

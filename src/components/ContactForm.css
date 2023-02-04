@@ -23,6 +23,10 @@
   font-weight: normal;
 }
 
+.contact-form {
+  position: relative;
+}
+
 .contact-icon {
   position: absolute;
   margin-top: 2.3rem;

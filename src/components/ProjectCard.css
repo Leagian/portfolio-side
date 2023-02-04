@@ -23,7 +23,7 @@
   font-weight: bold;
   letter-spacing: 0.3rem;
   line-height: 1.3rem;
-  text-shadow: -2px -1px 4px rgba(0, 0, 0, 1);
+  text-shadow: 2px 2px 2px #0d0f12;
 }
 
 .projcard-img:hover {

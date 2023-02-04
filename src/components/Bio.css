@@ -16,10 +16,10 @@
   font-family: "FuturaMedium";
   padding: 1rem;
   max-width: 50%;
-  font-size: 1.2vw;
-  word-spacing: 0.2vw;
-  letter-spacing: 0.2vw;
-  line-height: 2.5vw;
+  font-size: 1.2rem;
+  word-spacing: 0.2rem;
+  letter-spacing: 0.2rem;
+  line-height: 2.5rem;
   font-weight: normal;
 }
 
@@ -32,3 +32,19 @@
 }
 
 /*media query*/
+
+@media screen and (max-width: 1000px) {
+  .bio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .photoProfil {
+    max-width: 50%;
+  }
+  #bio-para {
+    max-width: 100%;
+    text-align: center;
+  }
+}
