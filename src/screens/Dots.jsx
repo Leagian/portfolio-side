@@ -11,7 +11,7 @@ const Dots = () => {
     canvas.height = window.innerHeight;
 
     let stars = [], // Array that contains the stars
-      FPS = 50, // Frames per second
+      FPS = 100, // Frames per second
       x = 100, // Number of stars
       mouse = {
         x: 0,

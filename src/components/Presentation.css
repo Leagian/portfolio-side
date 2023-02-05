@@ -24,7 +24,7 @@
 
 .typing-demo {
   font-weight: normal;
-  width: 16.5ch;
+  width: 18.5ch;
   animation: typing 4s steps(20), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
