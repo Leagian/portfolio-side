@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import witcher from "../assets/images/witcher.png";
+import rat from "../assets/images/rat.png";
 import clicker from "../assets/images/clicker.png";
 import generator from "../assets/images/generator.png";
 import conversion from "../assets/images/conversion.png";
@@ -7,6 +7,15 @@ import conversion from "../assets/images/conversion.png";
 import "./Projects.css";
 
 const arrayProjects = [
+  {
+    image: rat,
+    title: "ratkutend, site de peste e-commerce",
+    link: "https://leagiangrosso-ratkutend.netlify.app/",
+    hoverText: `HACKATON
+    REACT
+    SASS 
+    JS`,
+  },
   {
     image: clicker,
     title: "compteur manuel",
