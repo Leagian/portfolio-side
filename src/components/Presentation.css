@@ -24,7 +24,7 @@
 
 .typing-demo {
   font-weight: normal;
-  width: 18.5ch;
+  width: 18ch;
   animation: typing 4s steps(20), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -71,3 +71,16 @@
 }
 
 /*media query*/
+
+@media screen and (max-width: 1000px) {
+  .pres-h1 {
+    font-family: "FuturaMedium";
+    font-size: 5rem;
+    text-align: center;
+  }
+  .typing-demo {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+  }
+}
