@@ -39,6 +39,10 @@
   margin-right: 2.5rem;
 }
 
+.header-social > a {
+  width: 1.5rem;
+}
+
 /* hover links */
 
 /* nav ul li a,

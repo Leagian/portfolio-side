@@ -9,7 +9,9 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
   margin-top: 3rem;
+  max-width: 70%;
 }
 
 .projects-title {

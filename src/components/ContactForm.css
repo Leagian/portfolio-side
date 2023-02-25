@@ -81,9 +81,10 @@ input {
   justify-content: center;
   align-items: center;
   font-family: "FuturaMedium";
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-top: 2rem;
   margin-bottom: 5rem;
+  transition: 0.7s;
 }
 
 .contact-button:hover {
@@ -92,5 +93,5 @@ input {
   border: 2px solid #f2dfc7;
   box-shadow: 0px 5px 0 0 #f2dfc7;
   cursor: pointer;
-  transition: 0.4s;
+  transition: 0.5s;
 }

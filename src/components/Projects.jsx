@@ -3,6 +3,7 @@ import rat from "../assets/images/rat.png";
 import clicker from "../assets/images/clicker.png";
 import generator from "../assets/images/generator.png";
 import conversion from "../assets/images/conversion.png";
+import cityskyline from "../assets/images/cityskyline.png";
 
 import "./Projects.css";
 
@@ -39,6 +40,13 @@ const arrayProjects = [
     hoverText: `HTML 
     CSS 
     JS`,
+  },
+  {
+    image: cityskyline,
+    title: "city skyline css",
+    link: "https://leagiangrosso-cityskyline.netlify.app/",
+    hoverText: `HTML 
+    CSS`,
   },
 ];
 

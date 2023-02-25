@@ -5,9 +5,11 @@ import { AiOutlinePhone } from "react-icons/ai";
 import "./ContactForm.css";
 
 const ContactForm = () => {
+  const handleSubmit = (event) => event.preventDefault();
+
   return (
     <div>
-      <div id="contact">
+      <div id="contact" onSubmit={handleSubmit}>
         <h1 className="contact-h1">GET IN TOUCH</h1>
         <h4 className="contact-h4">I would love to hear from you!</h4>
 
@@ -22,6 +24,7 @@ const ContactForm = () => {
               className="contact-inputName"
               type="text"
               placeholder="Enter your name"
+              required
             />
           </div>
 
@@ -29,8 +32,9 @@ const ContactForm = () => {
             <AiOutlineMail size="25" className="contact-icon" />
             <input
               className="contact-inputEmail"
-              type="text"
+              type="email"
               placeholder="Enter your email"
+              required
             />
           </div>
 
@@ -56,6 +60,7 @@ const ContactForm = () => {
               className="contact-message"
               type="text"
               placeholder="Message"
+              required
             />
           </div>
 

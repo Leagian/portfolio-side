@@ -28,7 +28,7 @@ const Header = () => {
           </li>
           <li>
             <Link className="header-link" to="/contact">
-              Contact me
+              Contact
             </Link>
           </li>
         </ul>
@@ -50,13 +50,6 @@ const Header = () => {
               className="header-socialLogo"
               alt="linkedin logo"
             />
-          </a>
-          <a
-            href="https://slack.com/app_redirect?channel=U0486U1NDBM"
-            target="_blank"
-            rel="noreferrer noreferrer"
-          >
-            <img src={slack} className="header-socialLogo" alt="slack logo" />
           </a>
         </div>
         <AiOutlineMenu
