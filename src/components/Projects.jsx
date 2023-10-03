@@ -3,7 +3,6 @@ import rat from "../assets/images/rat.png";
 import clicker from "../assets/images/clicker.png";
 import generator from "../assets/images/generator.png";
 import conversion from "../assets/images/conversion.png";
-// import cityskyline from "../assets/images/cityskyline.png";
 
 import "./Projects.css";
 
