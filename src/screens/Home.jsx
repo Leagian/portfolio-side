@@ -1,4 +1,3 @@
-import FooterPage from "../components/FooterPage";
 import Header from "../components/Header";
 import Presentation from "../components/Presentation";
 import Skills from "../components/Skills";
@@ -17,7 +16,6 @@ const Home = () => {
         <Presentation />
         <Skills />
       </div>
-      {/* <FooterPage /> */}
     </div>
   );
 };

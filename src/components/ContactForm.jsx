@@ -21,6 +21,8 @@ const ContactForm = () => {
           <div>
             <AiOutlineUser size="25" className="contact-icon" />
             <input
+              autoComplete="off"
+              autoFocus
               className="contact-inputName"
               type="text"
               placeholder="Enter your name"
@@ -31,6 +33,8 @@ const ContactForm = () => {
           <div>
             <AiOutlineMail size="25" className="contact-icon" />
             <input
+              autoComplete="off"
+              autoFocus
               className="contact-inputEmail"
               type="email"
               placeholder="Enter your email"
@@ -41,6 +45,8 @@ const ContactForm = () => {
           <div>
             <AiOutlineUser size="25" className="contact-icon" />
             <input
+              autoComplete="off"
+              autoFocus
               className="contact-inputBusiness"
               type="text"
               placeholder="Business name"
@@ -50,6 +56,8 @@ const ContactForm = () => {
           <div>
             <AiOutlinePhone size="25" className="contact-icon" />
             <input
+              autoComplete="off"
+              autoFocus
               className="contact-inputPhone"
               type="text"
               placeholder="Phone number"
