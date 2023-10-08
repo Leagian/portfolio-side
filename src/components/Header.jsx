@@ -4,7 +4,6 @@ import "./Header.css";
 
 import github from "../assets/images/github.png";
 import linkedin from "../assets/images/linkedin.png";
-import slack from "../assets/images/slack.png";
 
 const Header = () => {
   return (
